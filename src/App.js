@@ -1,15 +1,16 @@
 import './App.css';
-import search from './search';
+import Search from './search';
 function App() {
 
   const handelOnSearchChange = (searchData) =>{
     console.log(searchData);
   }
-  
+
   return (
 
       <div className="container">
-      <search OnSearchChange={handelOnSearchChange}/>
+        <h1>j</h1>
+      <Search OnSearchChange={handelOnSearchChange}/>
     </div>
   );
 }
