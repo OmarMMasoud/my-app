@@ -1,9 +1,14 @@
-import React from 'react'
-import './src/components/Navbar/navbar.scss'
+import React from 'react';
+import navStyle from './navbar.scss'; 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
+<ul className='heeee'>
+  <li>nav</li>
+  <li>lll</li>
+  <li>lll</li>
+  <li>lll</li>
+</ul> 
+ )
 }
 
 export default Navbar

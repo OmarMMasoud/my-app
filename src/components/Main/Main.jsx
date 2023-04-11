@@ -1,10 +1,15 @@
 import React from 'react'
-import './components/Main/Main.scss'
+import mainStyle from './Main.scss'; 
+
 
 const Main = () => {
   return (
-    <div>Main</div>
-  )
+<ul className='heee'>
+  <li>main</li>
+  <li>lll</li>
+  <li>lll</li>
+  <li>lll</li>
+</ul>    )
 }
 
 export default Main

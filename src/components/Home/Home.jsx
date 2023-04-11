@@ -1,10 +1,14 @@
 import React from 'react'
-import './components/Home/Home.scss'
+import homeStyle from './home.scss'; 
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
+<ul className='yoo'>
+  <li>home</li>
+  <li>lll</li>
+  <li>lll</li>
+  <li>lll</li>
+</ul>   )
 }
 
 export default Home
